@@ -28,6 +28,7 @@ const NavLink = ({ children }) => (
     py={1}
     rounded={'md'}
     fontWeight="medium"
+    textTransform='uppercase'
     _hover={{
       textDecoration: 'none',
       bg: useColorModeValue('gray.200', 'gray.700'),
